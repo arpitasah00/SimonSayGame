@@ -19,14 +19,6 @@ document.addEventListener("keypress", function () {
   }
 });
 
-document.addEventListener("keypress", function () {
-  if (started == false) {
-    console.log("Game started");
-    started = true;
-
-    levelUp();
-  }
-});
 
 function btnFlash(btn) {
   btn.classList.add("flash");
